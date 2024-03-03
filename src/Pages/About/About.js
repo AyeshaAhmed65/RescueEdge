@@ -1,5 +1,11 @@
 import styles from "./About.module.css";
 import { useRef, useEffect, useState } from "react";
+import aboutMain from "../../images/aboutmain.png";
+import t1 from "../../images/test1.png";
+import t1detect from "../../images/test1detect.png";
+import t2 from "../../images/test2.jpg";
+import t2detect from "../../images/test2detect.jpg";
+
 function About() {
   const subHeading = useRef(null);
   const [dotAnimation, setDotAnimation] = useState(0);
@@ -26,7 +32,7 @@ function About() {
   return (
     <div className={styles.about__container}>
       <div className={styles.about__image__wrapper}>
-        <img src="/Assets/About_Main.png" />
+        <img src={aboutMain} />
         <h1>
           <span>Rescue</span> Edge
         </h1>
@@ -53,21 +59,21 @@ function About() {
         <div className={styles.detections__cards__wrapper}>
           <div className={styles.detections__card}>
             <div className={styles.detections__card__content}>
-              <img src="/Assets/Test1.png" />
+              <img src={t1} />
               <h2>Orignal Image</h2>
             </div>
             <div className={styles.detections__card__content}>
-              <img src="/Assets/Test1-detect.png" />
+              <img src={t1detect} />
               <h2>Detected Image</h2>
             </div>
           </div>
           <div className={styles.detections__card}>
             <div className={styles.detections__card__content}>
-              <img src="/Assets/Test2.jpg" />
+              <img src={t2} />
               <h2>Orignal Image</h2>
             </div>
             <div className={styles.detections__card__content}>
-              <img src="/Assets/Test2-detect.jpg" />
+              <img src={t2detect} />
               <h2>Detected Image</h2>
             </div>
           </div>

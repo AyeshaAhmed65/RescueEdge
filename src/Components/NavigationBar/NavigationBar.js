@@ -1,9 +1,11 @@
 import styles from "./NavigationBar.module.css";
+import logo from "../../images/logo.png";
+
 function NavigationBar() {
   return (
     <div className={styles.navigation__wrapper}>
       <div className={styles.navigation__logo__wrapper}>
-        <img src="/Assets/logo.png" />
+        <img src={logo} />
         <h1>
           <span>Rescue</span> Edge
         </h1>
