@@ -1,6 +1,6 @@
 .about__container{
     max-width: 100%;
-    padding: 60px 120px;
+    padding: 60px 0px;
     color: white;
     font-family: "Montserrat", sans-serif;
     animation: fadeInBottom 2s ease;
@@ -13,7 +13,6 @@
 
 .about__image__wrapper img{
     width: 100%;
-    border-radius: 30px;
 }
 
 .about__image__wrapper h1{
@@ -43,7 +42,8 @@
 }
 
 .about__content__wrapper{
-    margin-top: var(--section-margin);
+    margin-top: 60px;
+    padding: 0px 60px;
 }
 .about__content__wrapper h1{
     margin-bottom: 50px;
@@ -67,6 +67,8 @@
 
 .detections__container{
     margin-top: var(--section-margin);
+    padding: 0px 60px;
+
 }
 
 .detections__container h1{
@@ -130,6 +132,8 @@ border-radius: 5px;
 .working__container{
     margin-top: var(--section-margin);
     text-align: center;
+    padding: 0px 60px;
+
 }
 
 .working__container h1{
@@ -164,6 +168,9 @@ border-radius: 5px;
     transform: translateX(-3px) translateY(-3px);
     background-color: var(--warning);
     cursor: pointer;
+}
+.working__container button:active{
+    transform: translateX(0) translateY(0);
 }
 
 

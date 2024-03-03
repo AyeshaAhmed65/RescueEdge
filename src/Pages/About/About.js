@@ -41,7 +41,6 @@ function About() {
         </h2>
       </div>
       <div className={styles.about__content__wrapper}>
-        <h1>About Us</h1>
         <p>
           Welcome to an innovative solution revolutionizing search and rescue
           operations in<span> emergency </span>scenarios.Our mission is to
