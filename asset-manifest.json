@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RescueEdge/static/css/main.0c5e819e.css",
+    "main.js": "/RescueEdge/static/js/main.fb31d990.js",
+    "index.html": "/RescueEdge/index.html",
+    "main.0c5e819e.css.map": "/RescueEdge/static/css/main.0c5e819e.css.map",
+    "main.fb31d990.js.map": "/RescueEdge/static/js/main.fb31d990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c5e819e.css",
+    "static/js/main.fb31d990.js"
+  ]
+}
