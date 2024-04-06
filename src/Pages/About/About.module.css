@@ -1,0 +1,186 @@
+.about__container{
+    max-width: 100%;
+    padding: 60px 0px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    animation: fadeInBottom 2s ease;
+}
+
+.about__image__wrapper{
+    max-width: 100%;
+    position: relative;
+}
+
+.about__image__wrapper img{
+    width: 100%;
+}
+
+.about__image__wrapper h1{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.about__image__wrapper span{
+    color: var(--secondary);
+    font-weight: 500;
+    display: inline-block;
+}
+
+.about__image__wrapper h2{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    right: 80px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.about__content__wrapper{
+    margin-top: 60px;
+    padding: 0px 60px;
+}
+.about__content__wrapper h1{
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.about__content__wrapper p{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about__content__wrapper span{
+    color: var(--warning);
+}
+
+
+.detections__container{
+    margin-top: var(--section-margin);
+    padding: 0px 60px;
+
+}
+
+.detections__container h1{
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.detections__cards__wrapper{
+max-width: 100%;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.detections__card{
+display: flex;
+max-width: 100%;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+
+.detections__card__content{
+text-align: center;
+position: relative;
+transition: 0.2s all ease;
+
+}
+
+.detections__card__content h2{
+    margin-top: 20px;
+}
+
+.detections__card__content img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.detections__card__content:hover{
+    transform: scale(1.1) translateY(-20px);
+
+}
+
+.detections__card__content h2{
+position: absolute;
+bottom: 20px;
+left: 10px;
+padding: 5px 10px;
+background-color: black;
+border-radius: 5px;
+}
+
+
+.working__container{
+    margin-top: var(--section-margin);
+    text-align: center;
+    padding: 0px 60px;
+
+}
+
+.working__container h1{
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.working__container p{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.working__container button{
+    padding: 20px 100px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    transition: 0.2s all ease;
+}
+
+.working__container button:hover{
+    transform: translateX(-3px) translateY(-3px);
+    background-color: var(--warning);
+    cursor: pointer;
+}
+.working__container button:active{
+    transform: translateX(0) translateY(0);
+}
+
+
+@keyframes fadeInBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+.flexContainer{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flexContainer p{
+    font-size: 30px;
+}
+
+
+.imgWrapper{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+  
+  .imgWrapper img{
+    width: 100%;
+  }
