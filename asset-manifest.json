@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RescueEdge/static/css/main.e9ab73c6.css",
+    "main.js": "/RescueEdge/static/js/main.3fef9b8d.js",
+    "static/media/test1.png": "/RescueEdge/static/media/test1.05d5f90782de791a5ea6.png",
+    "static/media/test1detect.png": "/RescueEdge/static/media/test1detect.378fefd46569dd984a00.png",
+    "static/media/test2detect.jpg": "/RescueEdge/static/media/test2detect.3c0fddaf16f5329d5b11.jpg",
+    "static/media/test2.jpg": "/RescueEdge/static/media/test2.78bf927b574dc4194dd8.jpg",
+    "static/media/aboutmain.png": "/RescueEdge/static/media/aboutmain.f08a203ab99e92c28cf9.png",
+    "index.html": "/RescueEdge/index.html",
+    "main.e9ab73c6.css.map": "/RescueEdge/static/css/main.e9ab73c6.css.map",
+    "main.3fef9b8d.js.map": "/RescueEdge/static/js/main.3fef9b8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9ab73c6.css",
+    "static/js/main.3fef9b8d.js"
+  ]
+}
