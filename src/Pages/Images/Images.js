@@ -22,8 +22,8 @@ function Images() {
     <div className={styles.container}>
     <div className={styles.flexContainer}>
       {imagePaths.map((path)=><div key={path} className={styles.imgWrapper}>
-            <img src={`http://127.0.0.1:5550/Predictions/${path}`}/>
-            <p>{path.split('.')[0]}</p>
+            <img src={`http://127.0.0.1:5550/Predictions/${path.image_location}`}/>
+            <p>Lat: {path.gps_location.split(' ')[0]} Long: {path.gps_location.split(' ')[1]}</p>
         </div>)}
     </div>
     </div>
